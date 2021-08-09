@@ -1,0 +1,30 @@
+.hypermap {
+    width: 95%;
+    position:sticky;
+	border:1px solid #a78181;
+	opacity: 0.6;
+}
+
+.search-city > input {
+	width: 75%;
+	font-size: 16px !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+}
+
+.places-options {
+	width: 75%;
+	font-size: 15px !important;
+}
+
+.hypercity {
+	display: block !important;
+	margin-bottom: 3%;
+}
+.left-side {
+    margin-left: 0 !important;
+    width: 40%;
+
+}

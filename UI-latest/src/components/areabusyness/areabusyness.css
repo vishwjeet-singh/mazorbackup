@@ -1,0 +1,27 @@
+.area-busyness-heading {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+
+.area-busyness {
+    margin-bottom: 7%;
+}
+
+.select-hour {
+    display: flex;
+}
+
+.hour {
+    margin-right: 53px;
+    font-size: 18px;
+}
+
+.areaBusynessSubmit{
+    margin-left: 66px !important;
+}
+
+.areabusynessborder{
+    border:1px solid #BDBDBD;
+	opacity: 0.6;
+}

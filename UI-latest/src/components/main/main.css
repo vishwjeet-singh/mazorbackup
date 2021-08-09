@@ -1,0 +1,125 @@
+.main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 8% 92%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    margin-left: 7%;
+}
+
+.center {
+    display: grid;
+    grid-template-columns: 43% 57%;
+    margin-bottom: 7%;
+}
+
+.content {
+    width: 88%;
+}
+
+.paragraph {
+    font-size: 13px;
+    margin-bottom:6%;
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+
+.city {
+    display: flex;
+    margin-bottom: 3%;
+    justify-content: space-between;
+}
+
+.form div {
+    font-size: 13px;
+}
+
+.city-input {
+    width: 100%;
+}
+
+.form input {
+    font-size: 17px;
+    padding: 7px 7px 7px 5px;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+.form input:focus {
+    border: 3px solid #4C56BA;
+    outline: none;
+}
+.form input::placeholder {
+    color: #BDBDBD;
+}
+
+.store {
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: space-between;
+}
+
+.calendar {
+    float: right;
+}
+
+.left-side {
+    margin-left: 0 !important;
+    width: 40%;
+
+}
+
+.competitors {
+    font-size: 13px;
+}
+
+.checkbox {
+    margin-bottom: 5%;
+}
+
+.dropdown {
+    width: 100%;
+    font-size: 17px;
+    padding: 7px 7px 7px 5px;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+.dropdown:focus {
+    border: 3px solid #4C56BA;
+    outline: none;
+}
+
+.options:hover {
+    background-color: rgb(0, 89, 255);
+    color: white;
+}
+
+.submit {
+    color: white;
+    background-color: #4C56BA;
+    outline-style: none;
+    border-style: none;
+
+    font-size: 11px;
+    border-radius: 4px;
+    height: 38px;
+    width: 96px;
+}
+.submit:hover {
+    cursor: pointer;
+}
+.linechart{
+	margin-left:150px;
+}
+.map{
+    border:1px solid #BDBDBD;
+	opacity: 0.6;
+}

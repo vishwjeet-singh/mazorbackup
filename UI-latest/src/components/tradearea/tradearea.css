@@ -1,0 +1,36 @@
+.trade-area-heading {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+
+.trade-area {
+   
+margin-bottom:7%;
+position:sticky;
+}
+
+.tradeAreaborder{
+    border: 1px solid #BDBDBD;
+    opacity: 0.6;
+}
+.distance{
+    font-size: 18px;
+}
+
+.tradeareaSubmit{
+    margin-top: 18px;
+    margin-left: 0px !important;
+}
+
+.tradeareaborder{
+    border:1px solid #BDBDBD;
+	opacity: 0.6;
+}
+.sidedistancebox{
+    width: fit-content;
+    position: absolute;
+    top: calc(21% + 5px);
+    right: 2%;
+    display: inline-block;
+}

@@ -1,0 +1,44 @@
+.sidebar {
+  width: 100%;
+  height: 100vh !important;
+  font-size: 0.75em;
+  color: black;
+  display: flex;
+  position: sticky;
+  top: 0;
+  border-right: 2px solid #BDBDBD;
+  padding-top:0%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  overflow-x: hidden;
+  z-index:1;
+
+}
+
+.sidebar > div {
+  text-align: center;
+  width: 50%;
+  margin-left: 20%;
+  margin-bottom: 30%;
+  cursor: pointer;
+}
+
+.sidebar > div:hover {
+  color: #4C56BA; 
+}
+
+.icon {    
+  height: 20px;
+  width: 22px;
+  
+
+}
+
+.activeSidebar {
+  
+  background-color: #e7e9e3;
+  border-style:double;
+  border-color: #4C56BA;
+  border-width:5px;  
+  
+} 

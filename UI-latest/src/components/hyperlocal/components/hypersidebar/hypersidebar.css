@@ -1,0 +1,15 @@
+.hypersidebar > div:hover{
+	color: #4C56BA; 
+}
+.locationInfo.activeSidebar{
+	width:70%;
+}
+.areaCompare.activeSidebar{
+	width:70%;
+}
+.similarHood.activeSidebar{
+	width:70%;
+}
+.connectivity.activeSidebar{
+	width:70%;
+}
